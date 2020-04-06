@@ -188,7 +188,7 @@ var controller =(function(budgetCtrl,UICtrl){
         // 5. Display the budget on UI 
     
 
-    return {
+    return{
         init : function(){
             setupEventListeners();
             UICtrl.displayBudget({
